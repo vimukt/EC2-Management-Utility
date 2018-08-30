@@ -5,7 +5,11 @@ Dependencies
 Make sure you have Java (preferably java 8) & Maven installed and path configure on your system, if not follow the vendor instructions for installing them on your operating system.
 
 
-Running Tests
+Running Tests:
+Make sure you have "aws_access_key_id" & "aws_secret_access_key" keyed in correctly :
+<project folder>/conf/credentials (file).
+	
+
 After checking out the code build the project using :
 Run command(inside the project folder where pom.xml file is located) : mvn clean install -DskipTests ( make sure maven is installed and configure) to install the dependent jars.
 
